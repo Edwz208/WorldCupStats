@@ -1,15 +1,14 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import goals from './goals.png';
-import possession from './possession.png';
-import shotsoff from './shotson_shotsoff.png';
+import cards from './red_yellowcards.png';
+import penalties from './penalties.png';
+
 import './FOffense.css'
 
 
 const imgs = [
-  goals,
-  shotsoff,
-  possession
+  cards,
+  penalties
 ];
 
 

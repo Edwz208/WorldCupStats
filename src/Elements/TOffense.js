@@ -1,15 +1,13 @@
 import React, { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
-import goals from './goals.png';
-import possession from './possession.png';
-import shotsoff from './shotson_shotsoff.png';
+import crosses from './crosses.png';
+import assists from './passes_assists.png';
 import './TOffense.css'
 
 
 const imgs = [
-  goals,
-  shotsoff,
-  possession
+  assists,
+  crosses
 ];
 
 
