@@ -23,14 +23,14 @@
     position: absolute;
     width: 100%;
     overflow: hidden;
-    left: 25vh;
+    left: 10vh;
   }
   
   .Tcarousel-inner {
     display: flex;
     cursor: grab;
     align-items: center;
-    width: 60vw;
+    width: 85vw;
   }
   
   .Tcarousel-inner:active {
@@ -39,14 +39,14 @@
   
   .Timage-container {
     position: relative;
-    width: 80vw;
-    height: 90vh;
+    width: 75vw;
+    height: 100vh;
     flex-shrink: 0;
     background-color: #2d2d2d;
     background-size: cover;
     background-position: bottom;
     transition: transform 0.5s;
-    margin-left: 100px; 
+    margin-left: 120px; 
   }
   
   

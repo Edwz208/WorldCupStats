@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import cards from './red_yellowcards.png';
 import penalties from './penalties.png';
+import assists from './passes_assists.png'
 
 import './FOffense.css'
 

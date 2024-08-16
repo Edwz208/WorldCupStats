@@ -35,11 +35,11 @@ export const Chero = () => {
   return (
     <section className="Chero" ref={heroRef}>
       <div className="Chero-image">
-        <img src={`${process.env.PUBLIC_URL}/ALogo.png`} alt="Hero" />
+        <img src={`${process.env.PUBLIC_URL}/NLogo.svg`} alt="Hero" />
       </div>
       <div className="Chero-text">
-        <h1>Argentina</h1>
-        <p>Argentina statistically displays the strongest offence. Having both <br></br> the most shots off, shots on, and the 2nd most goals scored.</p>
+        <h1>Netherlands</h1>
+        <p>The Netherlands had a mediocre average defensive pressures<br></br> applied per game stat, but they had a very high average forced<br></br> turnovers stat and a very low average goals conceded per game. This <br></br>demonstrates how attacking opposing defenders at the right time <br></br>opposed to all the time is the best way to play defense.</p>
       </div>
     </section>
   );

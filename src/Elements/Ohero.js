@@ -39,7 +39,8 @@ export const Ohero = () => {
       </div>
       <div className="Ohero-text">
         <h1>Argentina</h1>
-        <p>Argentina statistically displays the strongest offence. Having both <br></br> the most shots off, shots on, and the 2nd most goals scored.</p>
+        <p>Argentina, the 2022 World Cup Winner, statistically displays<br></br> a strong offense, having both the most shots off target, shots <br></br>on target, and a high average goals scored per game stat. However, <br></br>their lackluster possession stats show that shooting the ball gets <br></br> more wins than passing it around.
+        </p>
       </div>
     </section>
   );

@@ -1,0 +1,9 @@
+.Ttside-text {
+    transform: rotate(270deg); 
+    display: inline-block; 
+    position: absolute; 
+    top: 555vh; 
+    left: 3vh;
+    color: white; 
+    font-size: 35px; 
+}

@@ -39,7 +39,8 @@ export const Fhero = () => {
       </div>
       <div className="Fhero-text">
         <h1>Argentina</h1>
-        <p>Argentina statistically displays the strongest offence. Having both <br></br> the most shots off, shots on, and the 2nd most goals scored.</p>
+        <p>Argentina, the 2022 World Cup Winner, had no red, <br></br> cards the entire tournament, albeit many yellow cards, and<br></br> scored the most penalties of the tournament. This shows the <br></br> importance of playing clean to avoid red cards and penalties and <br></br> capitalizing on penalties when other teams don't play clean.
+        </p>
       </div>
     </section>
   );

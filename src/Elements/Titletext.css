@@ -1,0 +1,9 @@
+.side-text {
+    transform: rotate(270deg); 
+    display: inline-block; 
+    position: absolute; 
+    top: 140vh; 
+    left: 5vh;
+    color: white; 
+    font-size: 35px; 
+}

@@ -22,15 +22,16 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 10%;
+    padding: 20px 10%;
     background-color: black;
     opacity: 0; /* Start with the element hidden */
     transition: opacity 1s ease-in-out;
+    margin-left: 70px; 
   }
   
   .Fhero-image img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
   }
   

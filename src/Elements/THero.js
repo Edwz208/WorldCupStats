@@ -35,11 +35,11 @@ export const Thero = () => {
   return (
     <section className="Thero" ref={heroRef}>
       <div className="Thero-image">
-        <img src={`${process.env.PUBLIC_URL}/ALogo.png`} alt="Hero" />
+        <img src={`${process.env.PUBLIC_URL}/fLogo.png`} alt="Hero" />
       </div>
       <div className="Thero-text">
-        <h1>Argentina</h1>
-        <p>Argentina statistically displays the strongest offence. Having both <br></br> the most shots off, shots on, and the 2nd most goals scored.</p>
+        <h1>France</h1>
+        <p>France, the 2022 World Cup Silver Medalist, had the <br></br> highest number of assists of the entire tournament, albeit <br></br> a normal number of average passes per game, showing the <br></br>value of quality over quantity in passing.</p>
       </div>
     </section>
   );

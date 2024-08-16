@@ -26,6 +26,7 @@
     background-color: black;
     opacity: 0; /* Start with the element hidden */
     transition: opacity 1s ease-in-out;
+    margin-left: 70px;
   }
   
   .Ohero-image img {

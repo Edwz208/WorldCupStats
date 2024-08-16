@@ -125,7 +125,7 @@ const Images = ({ imgIndex }) => {
             scale: imgIndex === idx ? 0.95 : 0.85,
           }}
           transition={SPRING_OPTIONS}
-          className="image-container"
+          className="Timage-container"
         >
 
         </motion.div>

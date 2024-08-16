@@ -11,6 +11,10 @@ import { FOffense } from './Elements/FOffense';
 import { Fhero } from './Elements/FHero'
 import { TOffense } from './Elements/TOffense';
 import { Thero } from './Elements/THero';
+import { Titletext } from './Elements/Titletext';
+import { Ttwo } from './Elements/Ttwo';
+import { TThree } from './Elements/TThree';
+import { TFour } from './Elements/TFour';
 
 function App() {
   return (
@@ -25,6 +29,10 @@ function App() {
       <Fhero /> 
       <TOffense />
       <Thero /> 
+      <Titletext /> 
+      <Ttwo />
+      <TThree />
+      <TFour />
     </div>
   );
 }
