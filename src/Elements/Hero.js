@@ -38,7 +38,7 @@ export const Hero = () => {
       </div>
       <div className="hero-text">
         <h1>WorldCupStats</h1>
-        <p>This is WorldCupStats' statistical analysis of Qatar's 2022 World Cup. Very Cool.</p>
+        <p>This is WorldCupStats' statistical analysis of Qatar's 2022 World Cup. Involving a comprehensive visual breakdown of every team.</p>
       </div>
     </section>
   );

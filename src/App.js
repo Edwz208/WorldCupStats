@@ -16,6 +16,7 @@ import { Ttwo } from './Elements/Ttwo';
 import { TThree } from './Elements/TThree';
 import { TFour } from './Elements/TFour';
 import { SpiderGraph } from './Elements/SpiderGraph'
+import { TFive } from './Elements/TFive';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
       <TThree />
       <TFour />
       <SpiderGraph />
+      <TFive />
       <div id="Offense" className="top-offense"></div>
       <div id="Defense" className="top-defense"></div>
       <div id="Fouls" className="top-fouls"></div>
