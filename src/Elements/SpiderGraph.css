@@ -1,0 +1,81 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  
+  
+  .Scarousel-container {
+    top: 950vh;
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    left: 45vh;
+  }
+  
+  .Scarousel-inner {
+    display: flex;
+    cursor: grab;
+    align-items: center;
+    width: 50vw;
+  }
+  
+  .Scarousel-inner:active {
+    cursor: grabbing;
+  }
+  
+  .Simage-container {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+    flex-shrink: 0;
+    background-color: #2d2d2d;
+    background-size: cover;
+    background-position: bottom;
+    transition: transform 0.5s;
+  }
+  
+  
+  .Sdots-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.5vh;
+    margin-top: 0.65vh;
+  }
+  
+  .Sdot {
+    height: 0.75vh;
+    width: 0.75vh;
+    border-radius: 50vh;
+    transition: background-color 0.5s;
+  }
+  
+  .Sdot-active {
+    background-color: #f5f5f5;
+  }
+  
+  .Sdot-inactive {
+    background-color: #737373;
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s forwards;
+  }
+  
+  .fade-out {
+    animation: fadeOut 1s forwards;
+  }
+  

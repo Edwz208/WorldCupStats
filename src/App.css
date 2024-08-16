@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.top-offense {
+  position: absolute;
+  top: 100vh;
+}
+
+.top-defense {
+  position: absolute;
+  top: 310vh;
+}
+
+.top-fouls {
+  position: absolute;
+  top: 510vh;
+}
+
+.top-teamplay {
+  position: absolute;
+  top: 730vh;
+}
+
+.top-teamstats {
+  position: absolute;
+  top: 945vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
