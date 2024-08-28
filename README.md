@@ -1,4 +1,5 @@
 Made as a UofT CREATE: Engineering Design Challenges (Data Structures and Algorithms) project
+
 My main contribution was expanding on the knowledge gained about pandas and matplotlib in the program to create the templates for all graphs used to visualize the dataset, including bar graphs, scatter plots, and spider graphs.
 # Getting Started with Create React App
 
